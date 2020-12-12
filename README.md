@@ -11,6 +11,7 @@ Setup:\
   -Configure config.py to the item you want, enter your CVV/Security code, and retrieve 2fa (2 factor authentication) key from Best Buy. More on 2fa below.\
   -In config.py, enter the path to your chrome profile.\
   -In config.py, change purchase from False to True when you're done testing the bot and are ready to purchase. When set to false, it will go all the way to checkout.\
+  -If you would like to be notified when the item is in stock, add a file named 'alert.wav' the project directory. It will play once.\
  \
  Best Buy Account:\
   -Add your address and card information\
