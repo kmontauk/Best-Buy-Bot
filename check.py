@@ -1,5 +1,5 @@
 from pyotp import *
-from config import keys
+from config import *
 import os
 
 
@@ -8,3 +8,7 @@ def totp_code():
     totp = TOTP(keys['auth_key'])
     print(totp.now())
     return totp.now()
+
+
+if generate_code:
+    totp_code()

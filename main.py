@@ -15,7 +15,7 @@ def init_web_driver(k):
     try:
         options = webdriver.ChromeOptions()
         # Path to your chrome profile line 18
-        options.add_argument(r'--user-data-dir=C:\Users\Douglas\AppData\Local\Google\Chrome\User Data')
+        options.add_argument(rf'--user-data-dir={path_to_profile}')
         driver = webdriver.Chrome(executable_path="./chromedriver.exe", options=options)
         options.add_experimental_option("detach", True)
         print('Webdriver Initialized')

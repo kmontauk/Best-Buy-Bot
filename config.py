@@ -10,6 +10,9 @@ keys = {
     'checkout_url': 'https://www.bestbuy.com/checkout/r/fast-track',
     'auth_key': '',
 }
+# Path to your chrome profile. Create a new one if you plan on using chrome while this is running.
+# Bot will not work unless Best Buy remains logged in, so this is required.
+path_to_profile = r'C:\Users\Douglas\AppData\Local\Google\Chrome\User Data'
 
 # Change this if you want the bot to empty your cart before attempting to purchase.
 # Useful if it's running autonomously, as you may not want 2+ items if an error occurs on checkout. True to check cart.
@@ -23,4 +26,7 @@ security_code = ''
 
 # Refresh rate for checking stock
 refresh_rate = 6
+
+# Generates a code for you to use to setup your BB account.
+generate_code = True
 
