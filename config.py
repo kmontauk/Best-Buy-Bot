@@ -27,6 +27,6 @@ security_code = ''
 # Refresh rate for checking stock
 refresh_rate = 6
 
-# Generates a code for you to use to setup your BB account.
+# Generates a code for you to use to setup your BB account..
 generate_code = True
 
