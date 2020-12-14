@@ -1,8 +1,8 @@
 # Best-Buy-Bot
 This is an auto-purchase bot that can buy most items on Best Buy using Selenium in Python. \
+\
 Initially, I wrote this to snag an RTX 3080 FE, however it seems that Best Buy has implemented some anti-bot measures. I have not been able to make it work for the 3080 as I haven't been able to watch the bot or catch one of the drops myself. In addition, information I could find online about their new measures was limited.\
 \
-I'm pretty new to github and programming in general, so any feedback, tips, or ideas are appreciated!\
 \
 Setup:\
   -Run install.bat to install dependencies and configure venv.\
